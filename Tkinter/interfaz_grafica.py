@@ -12,7 +12,7 @@ def convertir():
 ventana = tk.Tk()
 # AÑADE TÍTULO Y DIMENSIONES
 ventana.title("Conversor")
-ventana.config(width=350, height=250)
+ventana.config(width=450, height=250)
 
 
 etiqueta_gigas = ttk.Label(text="Gigabytes:")
