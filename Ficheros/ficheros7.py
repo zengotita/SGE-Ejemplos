@@ -7,7 +7,6 @@ import csv
     writer = csv.DictWriter(csvfichero, fieldnames= campos)
     writer.writeheader()
     writer.writerow({'Nota': 'B', 'Nombre': 'Aitor', 'Apellido': 'Urrutia'})
-
 '''
 # CORRIGE EL SALTO DE LÍNEA ADICIONAL QUE SE HACE
 
@@ -15,9 +14,9 @@ import csv
 #Lectura de archivo CSV
 import csv
 with open('archivo_csv_alumnos.csv', 'r') as csvfichero:
-	reader = csv.DictReader(csvfichero)
-	for fila in reader:
-         	print(fila['Nombre'], fila['Apellido'], fila['Nota'])
+    reader = csv.DictReader(csvfichero)
+    for fila in reader:
+        print(fila['Nombre'], fila['Apellido'], fila['Nota'])
 
 
 with open('archivo_csv_alumnos.csv') as csvfichero:

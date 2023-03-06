@@ -1,0 +1,4 @@
+Ion,10
+Ane,8
+Maider,5
+Jokin,7
