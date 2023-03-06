@@ -17,6 +17,7 @@ plt.ylabel('Valores')
 # Límites para el eje Y - ajustará que se vea de 10 en 10
 plt.ylim(0, 60)
 
+
 # Añadimos los nombres
 plt.xticks(y_pos, nombres)
 
